@@ -3,3 +3,46 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: "Pacifico", cursive;
+}
+a {
+    text-decoration: none;
+    color: skyblue;
+}
+
+/*utility class*/
+.m-3 {
+    margin: 3rem;
+}
+.center{
+    text-align : center;
+}
+
+/*Regole pagina */
+.main-title {
+    color: red;
+    margin-bottom: 1.5rem;
+}
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card-member {
+    margin-top: 2rem;
+    width: 32%;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.card-member img {
+    max-width: 80%;
+}
+
+.description-member {
+    line-height: 2;
+    font-size: large;
+}
