@@ -21,6 +21,9 @@ a {
 }
 
 /*Regole pagina */
+header {
+    font-size: larger;
+}
 .main-title {
     color: red;
     margin-bottom: 1.5rem;
@@ -33,7 +36,7 @@ a {
 .card-member {
     margin-top: 2rem;
     width: 32%;
-    background-color: gray;
+    background-color: black;
     display: flex;
     align-items: center;
     color: white;
